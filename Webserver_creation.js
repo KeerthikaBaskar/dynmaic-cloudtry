@@ -8,12 +8,12 @@ const webserver = server1.createServer((req,res)=>{
 
 
 // Step 3 : Assign the port number to the server
-const port=5000;
+// const port=5000;
 
-//Step 4 : Listening the port number for the server
-webserver.listen(port,()=>{
-    console.log("The current server running in http://localhost:8000");
-});
+// //Step 4 : Listening the port number for the server
+// webserver.listen(port,()=>{
+//     console.log("The current server running in http://localhost:8000");
+// });
 
 // Simple another method for giving port number
 // webserver.listen(5000,()=>{
